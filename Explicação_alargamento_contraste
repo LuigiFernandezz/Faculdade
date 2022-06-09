@@ -19,8 +19,13 @@ for i in range(img_in.shape[0]):
             
 img_out = np.array(img_out, dtype = np.uint8)
 
+cv2_imshow(img_in)
+cv2_imshow(img_out)
+
+'''
 cv2.imshow('in', img_in)
 cv2.waitKey(0)
 cv2.imshow('out', img_out)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+'''
